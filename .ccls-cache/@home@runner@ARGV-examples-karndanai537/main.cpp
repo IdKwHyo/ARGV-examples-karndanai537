@@ -5,7 +5,7 @@ using namespace std;
 int main(int argc, char **argv) {
   int n, *a;
   n = argc - 1;
-  a = new int[n];  
+  a = new int[n];
   
   for (int i = 0; i < n; i++) {
       a[i] = atoi(argv[i + 1]);
